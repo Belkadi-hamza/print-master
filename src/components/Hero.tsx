@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
-import heroImage from './assets/hero.png'
+import heroImage from '../assets/hero.png'
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="relative">
               <div className="relative p-4 rounded-lg shadow-2xl bg-transparent">
                 <img 
-                  src="https://img.freepik.com/free-photo/young-girl-with-pink-hairs-sending-positive-vibe_114579-22003.jpg?t=st=1746540476~exp=1746544076~hmac=b4f6dbd0a297955a0efbaa25bf721db618bb91b7dbaf96de3f0b4c90041ae4fc&w=1380"
+                  src="/img/hero.png"
                   alt="Custom printed t-shirts and apparel" 
                   className="w-full h-auto rounded-md"
                   />

@@ -51,7 +51,7 @@ const Hero = () => {
   <div className="relative">
     <div className="relative p-4 rounded-lg shadow-2xl bg-transparent">
       <img 
-        src="https://ibb.co/Mx16CHWg"
+        src="https://i.ibb.co/rRpswhTQ/hero.png"
         alt="Custom printed t-shirts and apparel" 
         className="w-full h-auto rounded-md"
       />

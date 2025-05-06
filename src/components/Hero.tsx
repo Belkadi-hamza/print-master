@@ -48,17 +48,17 @@ const Hero = () => {
           
           {/* Hero Image */}
           <div className={`transition-all duration-1000 delay-300 transform ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
-            <div className="relative">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-300 to-pink-500 rounded-lg blur opacity-40"></div>
-              <div className="relative bg-white p-4 rounded-lg shadow-2xl">
-                <img 
-                  src="https://images.pexels.com/photos/6612388/pexels-photo-6612388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Custom printed t-shirts and apparel" 
-                  className="w-full h-auto rounded-md"
-                />
-              </div>
-            </div>
-          </div>
+  <div className="relative">
+    <div className="relative p-4 rounded-lg shadow-2xl bg-transparent">
+      <img 
+        src="src/img/hero.png"
+        alt="Custom printed t-shirts and apparel" 
+        className="w-full h-auto rounded-md"
+      />
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
       

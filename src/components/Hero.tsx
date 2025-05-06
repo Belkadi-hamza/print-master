@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
+import heroImage from './assets/hero.png'
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -51,7 +52,7 @@ const Hero = () => {
   <div className="relative">
     <div className="relative p-4 rounded-lg shadow-2xl bg-transparent">
       <img 
-        src="src/assets/hero.png"
+        src={heroImage}
         alt="Custom printed t-shirts and apparel" 
         className="w-full h-auto rounded-md"
       />

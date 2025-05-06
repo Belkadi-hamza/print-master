@@ -48,16 +48,16 @@ const Hero = () => {
           
           {/* Hero Image */}
           <div className={`transition-all duration-1000 delay-300 transform ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
-  <div className="relative">
-    <div className="relative p-4 rounded-lg shadow-2xl bg-transparent">
-      <img 
-        src="src/img/hero.png"
-        alt="Custom printed t-shirts and apparel" 
-        className="w-full h-auto rounded-md"
-      />
-    </div>
-  </div>
-</div>
+            <div className="relative">
+              <div className="relative p-4 rounded-lg shadow-2xl bg-transparent">
+                <img 
+                  src="https://github.com/Belkadi-hamza/print-master/blob/main/src/img/hero.png"
+                  alt="Custom printed t-shirts and apparel" 
+                  className="w-full h-auto rounded-md"
+                  />
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
